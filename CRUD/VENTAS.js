@@ -5131,3 +5131,13 @@
 
 //db.getCollection('Ventas').updateMany({detalle_venta: 'Compra de frutas y verduras'},
 //{$set:{total_pagar:160.99}});
+
+// db.getCollection('Ventas').deleteOne({
+//     detalle_venta: 'Compra de frutas y verduras'});
+
+//db.getCollection('Ventas').deleteMany({
+//    detalle_venta:" Compra de frutas y verduras"})
+
+//db.getCollection('Ventas').drop({})
+
+//db.dropdatabase()

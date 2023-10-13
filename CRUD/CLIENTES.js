@@ -5303,4 +5303,12 @@
 
 //db.getCollection('Clientes').updateMany({Nombre: 'Andres'},{$set:{Edad:37}});
 
+//db.getCollection('Clientes').deleteOne({Nombre: 'Carlos'});
+
+//db.getCollection('Clientes').deleteMany({Nombre: 'Eduardo'});
+
+//db.getCollection('Clientes').drop({});
+
+//db.dropdatabase()
+
 
