@@ -501,3 +501,11 @@
 //     { "Nombre": "Barras de Granola", "Descripcion": "Barras de granola, paquete de 8.", "Categoria": "Snacks", "Precio": 4.49 },
 //     { "Nombre": "Té Verde", "Descripcion": "Té verde orgánico, caja de 20 bolsitas.", "Categoria": "Bebidas", "Precio": 3.29 }
 // ]);
+
+// db.getCollection('Productos').find();
+
+//db.getCollection('Productos').findOne();
+
+//db.getCollection('Productos').updateOne({Nombre: 'Leche'},{$set:{Precio:3.99}});
+
+//db.getCollection('Productos').updateMany({Categoria: 'Lácteos'},{$set:{Precio:3.99}});

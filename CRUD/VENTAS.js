@@ -5122,3 +5122,12 @@
 //       }
 //     ]);
 
+// db.getCollection('Ventas').find();
+
+//db.getCollection('Ventas').findOne();
+
+//db.getCollection('Ventas').updateOne({detalle_venta: 'Compra de frutas y verduras'},
+//{$set:{tipo_pago:"transaccion"}});
+
+//db.getCollection('Ventas').updateMany({detalle_venta: 'Compra de frutas y verduras'},
+//{$set:{total_pagar:160.99}});
