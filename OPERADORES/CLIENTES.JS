@@ -32,3 +32,22 @@
 //db.getCollection('Clientes').find({Nombre:{$exists:true}});
 
 //db.getCollection('Clientes').find({"Nombre":{$type:"string"}});
+
+// db.getCollection('Clientes').find({
+//     "Productos_Comprados": {
+//         $all: [
+//             { $elemMatch: { Producto: "arroz" } },
+//             { $elemMatch: { Producto: "zanahoria" } }
+//         ]
+//     }
+// })
+
+// db.getCollection('Clientes').find({
+//     "Productos_Comprados.Producto": {
+//         $all: ["arroz", "anichuela", "zanahoria"]
+//     }
+// })
+
+//db.getCollection('Clientes').find({Productos_Comprados: {$size:2}});
+
+//db.getCollection('Clientes').find({},{Productos_Comprados: {$slice:2}});
